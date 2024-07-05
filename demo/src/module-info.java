@@ -119,7 +119,8 @@ public class JFrame
 	calc.process( () -> {
 		System.out.println( "関心事を記述" );
 
-
+	Interface save = Calc04.create();
+		save.execute();
 
 	});
 
