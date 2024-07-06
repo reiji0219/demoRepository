@@ -14,7 +14,7 @@ public class Item04h implements Interface
 	private String name;
 	private double price;
 	private double tax;
-	private Calc04 calc;
+	private Calc04h calc;
 
 
 	public Item04h id( String id ){
@@ -33,11 +33,10 @@ public class Item04h implements Interface
 	this.tax = tax;
 	return this;
 	}
-	public Item04h calc( Calc04 calc ){
+	public Item04h calc( Calc04h calc ){
 	this.calc = calc;
 	return this;
 	}
-
 
 	public static void save( Consumer<Item04h> con ){
 	Item04h item = new Item04h( );
