@@ -57,11 +57,9 @@ public class Item09h implements Interface
 		calc.display();
 	}
 	
-	
 	public static double calcTax( double price, double tax ) {
 		return( price * tax );
 	}
-	
 	
 	@Override
 	public String toString() {
