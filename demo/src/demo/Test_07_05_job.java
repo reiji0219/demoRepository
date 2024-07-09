@@ -1,6 +1,5 @@
 package demo;
 
-import demo_02.Calc05;
 import umejava_05_01.Interface;
 
 public class Test_07_05_job

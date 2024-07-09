@@ -6,8 +6,6 @@ import java.util.Iterator;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.function.Consumer;
-
-import demo_02.Calc05;
 import umejava_05_01.Interface;
 
 public class Item05 implements Interface
