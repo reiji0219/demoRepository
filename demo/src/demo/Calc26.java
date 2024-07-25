@@ -23,12 +23,9 @@ public class Calc26 extends Item26
 					  .calc( calc );
 
 				System.out.println( "計算式 :" + item.getId());
-				
 				item.display();
-				
 				item.execute();
 			});
-
 		};
 	}
 	
@@ -39,11 +36,7 @@ public class Calc26 extends Item26
 	
 	public void process( Interface inter ) {
 		indi( "start" );
-		
 		inter.execute();
-		
 		indi( "end" );
 	}
-	
-	
 }

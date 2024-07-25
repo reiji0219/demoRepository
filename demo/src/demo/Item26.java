@@ -1,7 +1,6 @@
 package demo;
 
 import java.util.function.Consumer;
-
 import umejava_05_01.Interface;
 
 public class Item26 implements Interface
