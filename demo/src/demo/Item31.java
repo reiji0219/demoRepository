@@ -1,6 +1,7 @@
 package demo;
 
 import java.util.Iterator;
+import java.util.List;
 import java.util.Collections;
 import java.util.Comparator; 
 import java.util.ArrayList;
@@ -119,20 +120,26 @@ public class Item31 implements Interface
 				indi( hoge );
 		}
 			
+		List<Integer> seq = new ArrayList<>();
+		
+		for( int i = 0; i < 5; i++ ) {
+			int number = new java.util.Random(). nextInt( 4 ) + 1;
+				seq.add( number );
+		}
+		
+		for( int i : seq ) {
+			char[] base = { ' ', 'A', 'G', 'T', 'C' };
+				System.out.print( base[ i ] );
+		}
+			indi( " " );
 			
+		int num = new java.util.Random().nextInt( 10 ) + 1;
+		
+		String str = ( ( num % 2 ) == 0 )? ( ( num % 3 ) == 0 )?
+								"ture/ture" : "ture/false"
+						:( ( num % 3 ) == 0 )?
+								"false/ture" : "false/false" ;
+			indi( num + " " + str );
 			
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 }
