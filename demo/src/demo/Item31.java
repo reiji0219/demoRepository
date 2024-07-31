@@ -140,6 +140,5 @@ public class Item31 implements Interface
 						:( ( num % 3 ) == 0 )?
 								"false/ture" : "false/false" ;
 			indi( num + " " + str );
-			
 	}
 }
